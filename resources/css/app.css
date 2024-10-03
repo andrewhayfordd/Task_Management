@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.index > .head{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(11, 6, 29);
+    padding: 20px 0px;
+    align-items: center;
+}
+.index > .head h1{
+    color: #fff;
+    font-size: 20px;
+}
+.index > .head a{
+    color: rgb(11, 6, 29);
+    background-color: #fff;
+    padding: 8px 15px;
+    font-weight: 800;
+    border-radius: 20px;
+    font-size: 18px;
+}
+.index > .head a:active{
+    background-color: rgb(61, 41, 136);
+}
+.index > table tbody tr td .status{
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    padding: 3px;
+}
+
+
+
+.create{
+    background-color: rgb(11, 6, 29);
+    height: 500px;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+}
+.create h1{
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.create > form div{
+    padding: 10px;
+}
+.create > form h2{
+    color: #fff;
+}
+.create > form input{
+    width: 300px;
+    background-color: rgb(7, 3, 22);
+    border: none;
+    color: #fff;
+    outline: hidden;
+}
+.create > form input:focus{
+    background-color: rgb(7, 3, 22);
+}
+.create > form textarea{
+    width: 300px;
+    background-color: rgb(7, 3, 22);
+    border: none;
+    color: #fff;
+}
+.create > form select{
+    width: 300px;
+    background-color: rgb(7, 3, 22);
+    color: #fff;
+}
+.create > form button{
+    background-color: #0f0;
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+
+.edit{
+    background-color: rgb(11, 6, 29);
+    height: 500px;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+}
+.edit h1{
+    color: #fff;
+    font-size: 25px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.edit > form div{
+    padding: 10px;
+}
+.edit > form h2{
+    color: #fff;
+}
+.edit > form input{
+    width: 300px;
+    background-color: rgb(7, 3, 22);
+    border: none;
+    color: #fff;
+    outline: hidden;
+}
+.edit > form input:focus{
+    background-color: rgb(7, 3, 22);
+}
+.edit > form textarea{
+    width: 300px;
+    background-color: rgb(7, 3, 22);
+    border: none;
+    color: #fff;
+}
+.edit > form select{
+    width: 300px;
+    background-color: rgb(7, 3, 22);
+    color: #fff;
+}
+.edit > form button{
+    background-color: #0f0;
+    width: 300px;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
